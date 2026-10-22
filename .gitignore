@@ -1,0 +1,13 @@
+# Dependencies & build output
+node_modules
+dist
+.next
+*.tsbuildinfo
+
+# Secrets - never commit these (the .env.example templates are the only exceptions)
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
